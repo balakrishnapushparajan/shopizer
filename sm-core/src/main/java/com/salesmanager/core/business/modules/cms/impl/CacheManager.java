@@ -7,7 +7,7 @@ public interface CacheManager extends CMSManager {
 
   public EmbeddedCacheManager getManager();
 
-  @SuppressWarnings("rawtypes")
+  @SuppressWarnings("raw")
   public TreeCache getTreeCache();
 
 }
